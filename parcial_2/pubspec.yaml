@@ -1,0 +1,45 @@
+name: parcial_2
+description: "EcoTrack AI móvil — cliente Flutter del sistema de gestión de residuos sólidos (Parcial 2, Programación de dispositivos móviles)."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # Peticiones HTTP, cabeceras e interceptores.
+  dio: ^5.11.1
+  # Guarda el token cifrado (Keystore / Keychain / DPAPI).
+  flutter_secure_storage: ^11.2.0
+  # Navegación con rutas y guard (redirect).
+  go_router: ^18.1.3
+  # Estado global (sesión, tema, idioma).
+  flutter_riverpod: ^3.4.3
+  # Traducciones y formatos de fecha.
+  intl: ^0.20.3
+  # Preferencias simples: modo oscuro e idioma.
+  shared_preferences: ^2.5.6
+  skeletonizer: ^3.0.0
+  # Base de datos SQLite propia de la app (almacenamiento local).
+  sqflite: ^2.4.6
+  # Arma la ruta del archivo de la base de datos (join).
+  path: ^1.9.1
+  # Avisa cuando el celular pierde o recupera la red, para sincronizar.
+  connectivity_plus: ^7.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  # Genera lib/l10n/app_localizations.dart a partir de los archivos .arb
+  generate: true

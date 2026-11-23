@@ -1,0 +1,14 @@
+# Servidor de desarrollo web (flutter run -d chrome).
+# El navegador bloquea (CORS) las peticiones de la app (localhost:5050) al
+# backend (127.0.0.1:8000). Con este proxy la app le pide todo a su propio
+# origen y el servidor de Flutter lo reenvía al backend:
+#   http://localhost:5050/api/v1/...  → http://127.0.0.1:8000/api/v1/...
+#   http://localhost:5050/media/...   → http://127.0.0.1:8000/media/... (fotos)
+server:
+  host: localhost
+  port: 5050
+  proxy:
+    - prefix: "/api/"
+      target: "http://127.0.0.1:8000/"
+    - prefix: "/media/"
+      target: "http://127.0.0.1:8000/"

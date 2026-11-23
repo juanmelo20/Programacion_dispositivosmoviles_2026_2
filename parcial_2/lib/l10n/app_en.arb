@@ -1,0 +1,862 @@
+{
+  "@@locale": "en",
+  "appTitle": "EcoTrack AI",
+  "appSubtitle": "Smart waste management",
+  "login": "Sign in",
+  "loginTitle": "Welcome",
+  "loginSubtitle": "Use your username or institutional email.",
+  "userLabel": "Username or email",
+  "userHint": "e.g. jperez or jperez@ufpso.edu.co",
+  "passwordLabel": "Password",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "fieldRequired": "This field is required",
+  "invalidUser": "Use 3 to 50 characters (letters, numbers, . _ -) or a valid email",
+  "invalidPassword": "The password must be 6 to 72 characters with no spaces",
+  "completeAllFields": "Please complete all the fields",
+  "checkFields": "Check the fields marked in red",
+  "invalidCredentials": "Invalid credentials",
+  "tooManyAttempts": "Too many failed attempts. Try again in {seconds} s.",
+  "@tooManyAttempts": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "errorNoConnection": "Can't reach the server. Check your connection and try again.",
+  "errorTimeout": "The connection is too slow. Please try again.",
+  "errorServer": "Something went wrong. Please try again later.",
+  "pressBackAgainToExit": "Press back again to exit the app.",
+  "@pressBackAgainToExit": {
+    "description": "Aviso al pulsar atrás en Inicio: la segunda pulsación cierra la app."
+  },
+  "errorForbidden": "You don't have permission to see this.",
+  "errorNotFound": "We couldn't find what you were looking for.",
+  "sessionExpired": "Your session has expired. Please sign in again.",
+  "checkingSession": "Checking your session…",
+  "sessionCheckFailed": "We couldn't verify your session.",
+  "retry": "Retry",
+  "goToLogin": "Go to sign in",
+  "logout": "Sign out",
+  "logoutConfirmTitle": "Sign out?",
+  "logoutConfirmMessage": "You will need to enter your credentials again.",
+  "cancel": "Cancel",
+  "save": "Save",
+  "create": "Create",
+  "close": "Close",
+  "confirm": "Confirm",
+  "darkMode": "Dark mode",
+  "language": "Language",
+  "notFoundTitle": "Page not found",
+  "backHome": "Back to home",
+  "apiServer": "Server: {url}",
+  "@apiServer": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "slowConnection": "The connection is slow. Still loading…",
+  "emptyList": "Nothing to show yet.",
+  "actionError": "The action could not be completed. Please try again.",
+  "savedOk": "Changes saved",
+  "selectOption": "Select an option",
+  "optional": "Optional",
+  "allLabel": "All",
+  "never": "Never",
+  "roleAdministrador": "Administrator",
+  "roleRecolector": "Collector",
+  "roleInteresado": "Viewer",
+  "roleDesconocido": "No profile",
+  "menuHome": "Home",
+  "moduleContainers": "Containers",
+  "moduleAlerts": "Fill alerts",
+  "moduleRoute": "Collection route",
+  "moduleCollections": "Collections",
+  "moduleEcoPoints": "Eco points",
+  "moduleUsers": "Users",
+  "moduleReports": "Reports",
+  "moduleEvents": "Event log",
+  "moduleProfile": "My profile",
+  "titleContainerDetail": "Container details",
+  "titleFillHistory": "Fill history",
+  "titleNewContainer": "New container",
+  "titleEditContainer": "Edit container",
+  "titleNewUser": "New user",
+  "titleEditUser": "Edit user",
+  "greeting": "Hi, {name}",
+  "@greeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeAdminDescription": "Monitor containers, eco points, users and campus reports.",
+  "homeCollectorDescription": "Check which containers need collection and log your routes.",
+  "homeInterestedDescription": "Browse the reports and the impact of recycling on campus.",
+  "homeUnknownDescription": "Your profile has no modules assigned yet.",
+  "sessionValidUntil": "Session valid until {time}",
+  "@sessionValidUntil": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "modulesTitle": "Your modules",
+  "homeTodaySummary": "Today's summary",
+  "homeEcoPoints": "Active eco points",
+  "homeEcoPointsEmpty": "There are no active eco points.",
+  "pointActiveContainers": "{count, plural, =1{1 active container} other{{count} active containers}}",
+  "@pointActiveContainers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeRouteCard": "{count, plural, =0{Your route is empty} =1{1 container in your route} other{{count} containers in your route}}",
+  "@homeRouteCard": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "homeAlertsCard": "{count, plural, =0{No containers need collection} =1{1 container needs collection} other{{count} containers need collection}}",
+  "@homeAlertsCard": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "seeAll": "See all",
+  "kpiToday": "Classified today",
+  "kpiActiveContainers": "Active containers",
+  "kpiAttention": "Need attention",
+  "kpiFull": "Full",
+  "kpiAverageFill": "Average fill",
+  "kpiCollectionsToday": "Collections today",
+  "categoryRecyclable": "Recyclable",
+  "categoryOrganic": "Organic (recyclable)",
+  "categoryOrganicShort": "Organic",
+  "categoryNonRecyclable": "Non-recyclable",
+  "allCategories": "All categories",
+  "statusNormal": "Normal",
+  "statusAttention": "Needs attention",
+  "statusFull": "Full",
+  "allStatuses": "All statuses",
+  "searchEcoPoints": "Search by name, zone or description",
+  "searchContainers": "Search by name or code",
+  "showRetired": "Show retired",
+  "containerUnits": "{count} of {capacity} items",
+  "@containerUnits": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "capacity": {
+        "type": "int"
+      }
+    }
+  },
+  "ecoPointFilter": "Point: {name}",
+  "@ecoPointFilter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "containersEmpty": "No containers match these filters.",
+  "menuViewDetail": "View details",
+  "menuFillHistory": "Fill history",
+  "menuAddToRoute": "Add to my route",
+  "menuRemoveFromRoute": "Remove from my route",
+  "menuEdit": "Edit",
+  "menuRetire": "Retire",
+  "menuReactivate": "Reactivate",
+  "retireTitle": "Retire this container?",
+  "retireMessage": "It will stop receiving waste. Its history is kept.",
+  "retiredBadge": "Retired",
+  "addedToRoute": "{name} was added to your route",
+  "@addedToRoute": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removedFromRoute": "{name} was removed from your route",
+  "@removedFromRoute": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "inRouteBadge": "In route",
+  "detailCapacity": "Capacity",
+  "detailThreshold": "Alert threshold",
+  "detailThresholdGlobal": "{value} (global)",
+  "@detailThresholdGlobal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "detailCurrentCount": "Current items",
+  "detailLastCollection": "Last collection",
+  "detailSinceCollection": "Since last collection",
+  "detailLowConfidence": "Low confidence",
+  "detailTotalClassifications": "Total classified",
+  "detailRecentClassifications": "Latest classifications",
+  "detailRecentCollections": "Recent collections",
+  "detailNoCollections": "No collections yet.",
+  "confidenceValue": "Confidence {value}",
+  "@confidenceValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "registerCollection": "Register collection",
+  "registerCollectionTitle": "Register collection of {code}",
+  "@registerCollectionTitle": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "registerCollectionMessage": "The container count will go back to zero.",
+  "notesLabel": "Notes (optional)",
+  "notesTooLong": "Up to 500 characters",
+  "collectionRegistered": "Collection registered: {units} items. The count was reset.",
+  "@collectionRegistered": {
+    "placeholders": {
+      "units": {
+        "type": "int"
+      }
+    }
+  },
+  "fillHistoryPeriod": "Last 14 days",
+  "fillHistoryEmpty": "No activity in this period.",
+  "thresholdLine": "Threshold {value}",
+  "@thresholdLine": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "eventStart": "Start",
+  "eventClassification": "Waste classified",
+  "eventCollection": "Collection",
+  "eventCurrent": "Now",
+  "fillHistoryMovements": "Movements",
+  "fieldName": "Name",
+  "fieldCode": "Code (optional)",
+  "fieldCodeHint": "Leave it empty to generate it automatically",
+  "fieldCategory": "Category",
+  "fieldEcoPoint": "Eco point",
+  "fieldCapacity": "Capacity (items)",
+  "fieldThreshold": "Own threshold % (optional)",
+  "fieldThresholdHint": "Empty = use the global threshold",
+  "fieldActive": "Active",
+  "invalidName": "Use 2 to 100 characters",
+  "invalidCode": "Up to 20 characters: letters, numbers, - _ .",
+  "invalidCapacity": "Enter a whole number between 1 and 100000",
+  "invalidThreshold": "Enter a value between 1 and 100",
+  "containerCreated": "Container created",
+  "containerUpdated": "Container updated",
+  "alertsSummary": "{count, plural, =1{1 container needs attention} other{{count} containers need attention}}",
+  "@alertsSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "alertsEmpty": "All good: no container is over the threshold.",
+  "addAllToRoute": "Add all to my route",
+  "addedAllToRoute": "{count, plural, =0{They were already in your route} =1{1 container added to your route} other{{count} containers added to your route}}",
+  "@addedAllToRoute": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeEmptyTitle": "Your route is empty",
+  "routeEmptyMessage": "Add containers from Fill alerts or Containers.",
+  "goToAlerts": "View alerts",
+  "routeSummary": "{count, plural, =1{1 container} other{{count} containers}} · {units} items",
+  "@routeSummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "units": {
+        "type": "int"
+      }
+    }
+  },
+  "routeHint": "Long-press and drag to reorder. Swipe to remove.",
+  "routeRegisterAll": "Register collection ({count})",
+  "@routeRegisterAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeConfirmTitle": "Register the collection?",
+  "routeConfirmMessage": "{count, plural, =1{The collection of 1 container will be registered and its count will go back to zero.} other{The collection of {count} containers will be registered and their count will go back to zero.}}",
+  "@routeConfirmMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeProgress": "Registering {current} of {total}…",
+  "@routeProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "routeDone": "{count, plural, =1{Route completed: 1 collection registered.} other{Route completed: {count} collections registered.}}",
+  "@routeDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routePartial": "{ok} registered, {failed} could not be registered. They stay in your route.",
+  "@routePartial": {
+    "placeholders": {
+      "ok": {
+        "type": "int"
+      },
+      "failed": {
+        "type": "int"
+      }
+    }
+  },
+  "routeOffline": "{count, plural, =0{No connection to the server: no collection was registered. Your route is still saved on this phone; register it when the connection is back.} =1{No connection to the server: 1 collection was registered. The other containers stay in your route, saved on this phone.} other{No connection to the server: {count} collections were registered. The other containers stay in your route, saved on this phone.}}",
+  "@routeOffline": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "routeClear": "Clear route",
+  "routeRemove": "Remove",
+  "periodToday": "Today",
+  "periodDays": "{days} days",
+  "@periodDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "collectionsEmpty": "No collections in this period.",
+  "collectedBy": "By {name}",
+  "@collectedBy": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "unitsCollected": "{units} items",
+  "@unitsCollected": {
+    "placeholders": {
+      "units": {
+        "type": "int"
+      }
+    }
+  },
+  "fillAtCollection": "Fill {value}",
+  "@fillAtCollection": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "collectionsTotal": "{count, plural, =1{1 collection} other{{count} collections}} · {units} items",
+  "@collectionsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "units": {
+        "type": "int"
+      }
+    }
+  },
+  "ecoPointsEmpty": "There are no eco points yet.",
+  "pointContainers": "{active} of {total} containers active",
+  "@pointContainers": {
+    "placeholders": {
+      "active": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "activeBadge": "Active",
+  "inactiveBadge": "Inactive",
+  "newEcoPoint": "New eco point",
+  "editEcoPoint": "Edit eco point",
+  "fieldZone": "Building or zone (optional)",
+  "fieldDescription": "Description (optional)",
+  "invalidZone": "Up to 100 characters",
+  "invalidDescription": "Up to 255 characters",
+  "menuViewContainers": "View containers",
+  "menuActivate": "Activate",
+  "menuDeactivate": "Deactivate",
+  "menuDelete": "Delete",
+  "deletePointTitle": "Delete this eco point?",
+  "deletePointMessage": "This action cannot be undone.",
+  "ecoPointSaved": "Eco point saved",
+  "ecoPointDeleted": "Eco point deleted",
+  "searchUsers": "Search by name, username or email",
+  "usersEmpty": "No users match the search.",
+  "fieldUsername": "Username",
+  "fieldEmail": "Email",
+  "fieldFullName": "Full name (optional)",
+  "fieldRole": "Role",
+  "fieldNewPassword": "Password",
+  "fieldPasswordConfirm": "Confirm password",
+  "passwordsDontMatch": "Passwords do not match",
+  "invalidEmail": "Enter a valid email",
+  "invalidUsername": "3 to 50 characters: letters, numbers, . _ -",
+  "invalidFullName": "Use letters and spaces (2 to 100)",
+  "userCreated": "User created",
+  "userUpdated": "User updated",
+  "menuResetPassword": "Reset password",
+  "resetPasswordTitle": "New password for {username}",
+  "@resetPasswordTitle": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "passwordUpdated": "Password updated",
+  "deactivateUserTitle": "Deactivate {username}?",
+  "@deactivateUserTitle": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "deactivateUserMessage": "They won't be able to sign in until the account is activated again.",
+  "youBadge": "You",
+  "lastLoginLabel": "Last sign in: {date}",
+  "@lastLoginLabel": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "neverSignedIn": "Never signed in",
+  "cantEditOwnRole": "You cannot change your own role or deactivate yourself.",
+  "allEcoPoints": "All eco points",
+  "reportRange": "From {start} to {end}",
+  "@reportRange": {
+    "placeholders": {
+      "start": {
+        "type": "String"
+      },
+      "end": {
+        "type": "String"
+      }
+    }
+  },
+  "kpiClassifications": "Classified",
+  "kpiValid": "Valid",
+  "kpiLowConfidence": "Low confidence",
+  "kpiRejected": "Rejected",
+  "kpiAvgConfidence": "Avg. confidence",
+  "kpiCollections": "Collections",
+  "kpiUnitsCollected": "Items collected",
+  "kpiDailyAverage": "Daily average",
+  "chartByCategory": "By category",
+  "chartDaily": "Classified per day",
+  "chartByLocation": "By eco point",
+  "chartByHour": "Busiest hours",
+  "chartTopContainers": "Containers with the most waste",
+  "reportEmptySection": "No data in this period.",
+  "searchEvents": "Search the log",
+  "eventsEmpty": "No events match these filters.",
+  "eventsTotal": "{count, plural, =1{1 event} other{{count} events}}",
+  "@eventsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "levelInfo": "Info",
+  "levelWarning": "Warning",
+  "levelError": "Error",
+  "profileAccount": "Account",
+  "profileUsername": "Username",
+  "profileEmail": "Email",
+  "profileRole": "Role",
+  "profileCreated": "Account created",
+  "profileLastLogin": "Last sign in",
+  "profileSecurity": "Security",
+  "profileSessionUntil": "Session valid until",
+  "profileTokenStored": "Your token is stored encrypted on this device and sent in the Authorization header.",
+  "profilePreferences": "Preferences",
+  "homeLast7Days": "Last 7 days",
+  "fieldCapacityHint": "Empty = default capacity (50)",
+  "undo": "Undo",
+  "routeClearConfirm": "All the containers will be removed from your route.",
+  "usernameLocked": "The username can't be changed",
+  "clearFilter": "Clear filter",
+  "containerRetired": "Container retired",
+  "containerReactivated": "Container reactivated",
+  "userActivated": "User activated",
+  "userDeactivated": "User deactivated",
+  "ecoPointActivated": "Eco point activated",
+  "ecoPointDeactivated": "Eco point deactivated",
+  "ofLabel": "{shown} of {total}",
+  "@ofLabel": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "chartMax": "max. {value}",
+  "@chartMax": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorLocationNotFound": "The eco point no longer exists.",
+  "@apiErrorLocationNotFound": {
+    "description": "Error LOCATION_NOT_FOUND de la API."
+  },
+  "apiErrorLocationNameTaken": "An eco point named {name} already exists.",
+  "@apiErrorLocationNameTaken": {
+    "description": "Error LOCATION_NAME_TAKEN de la API.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorLocationHasTerminals": "This eco point has terminals assigned ({terminals}). Move them to another point or remove them and try again.",
+  "@apiErrorLocationHasTerminals": {
+    "description": "Error LOCATION_HAS_TERMINALS de la API.",
+    "placeholders": {
+      "terminals": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorLocationHasHistory": "This eco point has containers or classifications. Deactivate it instead of deleting it to keep its history.",
+  "@apiErrorLocationHasHistory": {
+    "description": "Error LOCATION_HAS_HISTORY de la API."
+  },
+  "apiErrorContainerNotFound": "Container #{id} no longer exists.",
+  "@apiErrorContainerNotFound": {
+    "description": "Error CONTAINER_NOT_FOUND de la API.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorContainerCodeTaken": "A container with code {code} already exists.",
+  "@apiErrorContainerCodeTaken": {
+    "description": "Error CONTAINER_CODE_TAKEN de la API.",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorContainerLocationNotFound": "The selected eco point doesn't exist.",
+  "@apiErrorContainerLocationNotFound": {
+    "description": "Error CONTAINER_LOCATION_NOT_FOUND de la API."
+  },
+  "apiErrorContainerInactive": "This container is deactivated.",
+  "@apiErrorContainerInactive": {
+    "description": "Error CONTAINER_INACTIVE de la API."
+  },
+  "apiErrorUserNotFound": "User #{id} no longer exists.",
+  "@apiErrorUserNotFound": {
+    "description": "Error USER_NOT_FOUND de la API.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "apiErrorUserAlreadyExists": "That username or email is already registered.",
+  "@apiErrorUserAlreadyExists": {
+    "description": "Error USER_ALREADY_EXISTS de la API."
+  },
+  "apiErrorUserOwnRole": "You can't change your own role.",
+  "@apiErrorUserOwnRole": {
+    "description": "Error USER_OWN_ROLE de la API."
+  },
+  "apiErrorUserOwnDeactivation": "You can't deactivate your own account.",
+  "@apiErrorUserOwnDeactivation": {
+    "description": "Error USER_OWN_DEACTIVATION de la API."
+  },
+  "apiErrorUserLastAdmin": "At least one active administrator must remain.",
+  "@apiErrorUserLastAdmin": {
+    "description": "Error USER_LAST_ADMIN de la API."
+  },
+  "eventTypeInicioSistema": "System started",
+  "@eventTypeInicioSistema": {
+    "description": "Tipo de evento INICIO_SISTEMA de la bitácora."
+  },
+  "eventTypeInicioSesion": "Sign-in",
+  "@eventTypeInicioSesion": {
+    "description": "Tipo de evento INICIO_SESION de la bitácora."
+  },
+  "eventTypeSesionFallida": "Failed sign-in attempt",
+  "@eventTypeSesionFallida": {
+    "description": "Tipo de evento SESION_FALLIDA de la bitácora."
+  },
+  "eventTypeBajaConfianza": "Low-confidence classification",
+  "@eventTypeBajaConfianza": {
+    "description": "Tipo de evento BAJA_CONFIANZA de la bitácora."
+  },
+  "eventTypeClasificacionRechazada": "Rejected classification",
+  "@eventTypeClasificacionRechazada": {
+    "description": "Tipo de evento CLASIFICACION_RECHAZADA de la bitácora."
+  },
+  "eventTypeSinDeteccion": "Image with no waste detected",
+  "@eventTypeSinDeteccion": {
+    "description": "Tipo de evento SIN_DETECCION de la bitácora."
+  },
+  "eventTypeAlertaLlenado": "Container over its threshold",
+  "@eventTypeAlertaLlenado": {
+    "description": "Tipo de evento ALERTA_LLENADO de la bitácora."
+  },
+  "eventTypeCapacidadAlcanzada": "Container reached capacity",
+  "@eventTypeCapacidadAlcanzada": {
+    "description": "Tipo de evento CAPACIDAD_ALCANZADA de la bitácora."
+  },
+  "eventTypeRecoleccion": "Collection logged",
+  "@eventTypeRecoleccion": {
+    "description": "Tipo de evento RECOLECCION de la bitácora."
+  },
+  "eventTypeRevision": "Classification review",
+  "@eventTypeRevision": {
+    "description": "Tipo de evento REVISION de la bitácora."
+  },
+  "eventTypeConfiguracion": "Settings change",
+  "@eventTypeConfiguracion": {
+    "description": "Tipo de evento CONFIGURACION de la bitácora."
+  },
+  "eventTypeContenedor": "Container management",
+  "@eventTypeContenedor": {
+    "description": "Tipo de evento CONTENEDOR de la bitácora."
+  },
+  "eventTypeUbicacion": "Eco point management",
+  "@eventTypeUbicacion": {
+    "description": "Tipo de evento UBICACION de la bitácora."
+  },
+  "eventTypeUsuario": "User management",
+  "@eventTypeUsuario": {
+    "description": "Tipo de evento USUARIO de la bitácora."
+  },
+  "eventTypeExportacion": "Data export",
+  "@eventTypeExportacion": {
+    "description": "Tipo de evento EXPORTACION de la bitácora."
+  },
+  "eventTypeRendimiento": "Slow processing",
+  "@eventTypeRendimiento": {
+    "description": "Tipo de evento RENDIMIENTO de la bitácora."
+  },
+  "eventTypeErrorImagen": "Invalid image",
+  "@eventTypeErrorImagen": {
+    "description": "Tipo de evento ERROR_IMAGEN de la bitácora."
+  },
+  "eventTypeErrorDeteccion": "Detection engine error",
+  "@eventTypeErrorDeteccion": {
+    "description": "Tipo de evento ERROR_DETECCION de la bitácora."
+  },
+  "eventTypeSinContenedor": "No container available",
+  "@eventTypeSinContenedor": {
+    "description": "Tipo de evento SIN_CONTENEDOR de la bitácora."
+  },
+  "eventTypeResiduoEspecial": "Hazardous waste presented",
+  "@eventTypeResiduoEspecial": {
+    "description": "Tipo de evento RESIDUO_ESPECIAL de la bitácora."
+  },
+  "eventTypePuntoEcologico": "Live eco point",
+  "@eventTypePuntoEcologico": {
+    "description": "Tipo de evento PUNTO_ECOLOGICO de la bitácora."
+  },
+  "eventTypeTerminal": "Terminal management",
+  "@eventTypeTerminal": {
+    "description": "Tipo de evento TERMINAL de la bitácora."
+  },
+  "offlineBanner": "Offline: showing the data saved on this phone.",
+  "lastDownloadAt": "Last update: {date}",
+  "@lastDownloadAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "pendingChanges": "{count, plural, =1{1 change waiting to sync} other{{count} changes waiting to sync}}",
+  "@pendingChanges": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "failedChanges": "{count, plural, =1{1 change could not be synced} other{{count} changes could not be synced}}",
+  "@failedChanges": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "syncNow": "Sync",
+  "syncing": "Syncing…",
+  "syncDone": "{count, plural, =1{1 change was saved to the system} other{{count} changes were saved to the system}}",
+  "@syncDone": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "savedOffline": "Saved offline. It will be saved to the system automatically when the connection is back.",
+  "deletedOffline": "Deleted offline. It will be removed from the system automatically when the connection is back.",
+  "pendingCreate": "Pending: create",
+  "pendingUpdate": "Pending: edit",
+  "pendingDelete": "Pending: delete",
+  "syncErrorBadge": "Could not sync",
+  "menuDiscardChange": "Discard change",
+  "menuViewSyncError": "See the error",
+  "changeDiscarded": "Change discarded.",
+  "localOnlyHint": "Point created offline: it will be saved to the system automatically when a connection is available.",
+  "moduleTerminals": "Terminals",
+  "titleAssignTerminal": "Add terminal",
+  "terminalsEmpty": "There are no terminals yet. Open the eco point screen and add it with the code it shows.",
+  "terminalStatusUnassigned": "Unassigned",
+  "terminalStatusAssigned": "Assigned",
+  "terminalStatusChange": "Asked to change point",
+  "terminalOnline": "Online",
+  "terminalOffline": "No signal",
+  "terminalNoPoint": "No eco point assigned",
+  "terminalLastSeen": "Last signal: {date}",
+  "@terminalLastSeen": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "fieldTerminalCode": "Terminal code",
+  "terminalCodeHelp": "Type the 6-digit code shown on the terminal screen.",
+  "terminalCodeInvalid": "The code must have 6 digits.",
+  "terminalFind": "Find terminal",
+  "terminalFound": "Terminal found",
+  "terminalAlreadyAt": "It is already at “{point}” and asked to change point.",
+  "@terminalAlreadyAt": {
+    "placeholders": {
+      "point": {
+        "type": "String"
+      }
+    }
+  },
+  "terminalWhere": "Which eco point does it go to?",
+  "terminalExistingPoint": "Existing point",
+  "terminalNewPoint": "New point",
+  "terminalPickPoint": "Choose an eco point.",
+  "terminalNoPoints": "There are no eco points yet. Create a new one for this terminal.",
+  "terminalNewPointHint": "The point is created with its three containers: recyclable, organic and non-recyclable.",
+  "terminalExistingHint": "If the point is missing a container, it is created when the terminal is assigned.",
+  "terminalAssign": "Assign terminal",
+  "terminalAssigned": "{terminal} assigned to “{point}”.",
+  "@terminalAssigned": {
+    "placeholders": {
+      "terminal": {
+        "type": "String"
+      },
+      "point": {
+        "type": "String"
+      }
+    }
+  },
+  "terminalAssignedWithContainers": "{terminal} assigned to “{point}”. Containers created: {codes}.",
+  "@terminalAssignedWithContainers": {
+    "placeholders": {
+      "terminal": {
+        "type": "String"
+      },
+      "point": {
+        "type": "String"
+      },
+      "codes": {
+        "type": "String"
+      }
+    }
+  },
+  "menuRemoveTerminal": "Remove terminal",
+  "removeTerminalTitle": "Remove the terminal?",
+  "removeTerminalMessage": "If that screen is opened again, it will appear as a new terminal with a code. The point's containers are not deleted.",
+  "terminalRemoved": "Terminal removed.",
+  "emptyContainer": "Empty container",
+  "emptyContainerTitle": "Empty {code}",
+  "@emptyContainerTitle": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyContainerMessage": "The collection is recorded and the container count goes back to zero.",
+  "containerEmptied": "Container emptied: {units} items. The count went back to zero.",
+  "@containerEmptied": {
+    "placeholders": {
+      "units": {
+        "type": "int"
+      }
+    }
+  },
+  "terminalCodeNotFound": "The code is not valid or has expired. Check the one the terminal shows."
+}
